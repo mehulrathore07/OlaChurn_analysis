@@ -37,6 +37,26 @@ Column Profiling:
 
 • Quarterly Rating : Quarterly rating of the employee: 1,2,3,4,5 (categorical, ordinal - higher is better)
 
+# Objectives:
+- Identify key factors contributing to driver churn.
+- Build predictive models to forecast churn and classify drivers at risk of leaving.
+- Provide actionable insights to Ola management to improve driver retention strategies.
+
+# Data Collection:
+The project utilizes a comprehensive dataset obtained from Ola's internal databases, containing historical records of driver activities, trip details, earnings, ratings, and other relevant metrics. The dataset covers a significant timeframe to capture trends and patterns in driver behavior.
+
+# Data Preprocessing:
+Data preprocessing involves cleaning, formatting, and transforming raw data into a suitable format for analysis. This step includes handling missing values, outlier detection, feature engineering, and encoding categorical variables. Additionally, exploratory data analysis (EDA) techniques are applied to gain initial insights into the data.
+
+# Feature Selection:
+Feature selection is crucial for identifying the most influential factors affecting driver churn. Statistical methods, correlation analysis, and domain knowledge are leveraged to select relevant features that contribute to churn prediction models.
+
+# Model Building:
+Several machine learning algorithms, such as logistic regression, decision trees, random forests and XGBoost are explored to develop predictive models for driver churn. Hyperparameter tuning and cross-validation techniques are applied to optimize model performance and ensure robustness.
+
+# Evaluation Metrics:
+The performance of churn prediction models is evaluated using various metrics, including accuracy, precision, recall, F1-score, ROC AUC score, and confusion matrix. These metrics provide insights into model effectiveness, discrimination ability, and balance between true positives and false positives.
+
 # Conclusion:
 - After hyperparameter tuning, the RandomForestClassifier shows improved performance across all metrics compared to the DecisionTreeClassifier.
 - It achieves higher accuracy (90.05%) and Cross Validation Score (97.28%), indicating better generalization and robustness.
